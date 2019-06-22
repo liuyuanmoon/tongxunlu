@@ -1,0 +1,85 @@
+body{
+    background: #ffffff;
+}
+header{
+    height: 0.88rem;
+    width: 100%;
+    background: #e4e3e3;
+    padding: 0.22rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header>input{
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    border-radius: 0.05rem;
+    box-sizing: border-box;
+    height: auto;
+    padding-left: 0.1rem;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+    border: none;
+    outline: none;
+}
+header>div{
+    border-bottom: none;
+}
+.solid{
+    width: 100%;
+    height: auto;
+}
+.solid>h1{
+    font-size: 0.5rem;
+    font-weight: normal;
+    color: #b1b1b1;
+
+}
+main{
+     margin-top: 1.1rem;
+    padding: 0 0.22rem;
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 0.24rem;
+    margin-bottom: 0.1rem;
+    box-sizing: border-box;
+}
+h2{
+    font-weight: normal;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.26rem;
+    border-bottom: 0.01rem solid #aaaaaa;
+}
+div{
+    line-height: 1rem;
+    border-bottom: 0.01rem solid #aaaaaa;
+    height: 1rem;
+}
+div>a{
+    line-height: 1rem;
+    font-size: 0.2rem;
+    color: #000000;
+    display: block;
+    width: 100%;
+    height:100%;
+
+}
+.aside{
+    width: 0.5rem;
+    position:fixed;
+    right: 0.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.aside>li{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #d8dfb3;
+}
